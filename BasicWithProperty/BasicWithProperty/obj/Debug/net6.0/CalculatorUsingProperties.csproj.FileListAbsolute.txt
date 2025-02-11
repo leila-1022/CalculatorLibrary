@@ -1,0 +1,15 @@
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\bin\Debug\net6.0\CalculatorUsingProperties.exe
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\bin\Debug\net6.0\CalculatorUsingProperties.deps.json
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\bin\Debug\net6.0\CalculatorUsingProperties.runtimeconfig.json
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\bin\Debug\net6.0\CalculatorUsingProperties.dll
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\bin\Debug\net6.0\CalculatorUsingProperties.pdb
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\CalculatorUsingProperties.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\CalculatorUsingProperties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\CalculatorUsingProperties.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\CalculatorUsingProperties.AssemblyInfo.cs
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\CalculatorUsingProperties.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\CalculatorUsingProperties.dll
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\refint\CalculatorUsingProperties.dll
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\CalculatorUsingProperties.pdb
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\CalculatorUsingProperties.genruntimeconfig.cache
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\ref\CalculatorUsingProperties.dll

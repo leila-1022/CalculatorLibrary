@@ -1,0 +1,15 @@
+C:\Users\Student\source\repos\Dede\Dede\obj\Debug\net6.0\Dede.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\Dede\Dede\obj\Debug\net6.0\Dede.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\Dede\Dede\obj\Debug\net6.0\Dede.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\Dede\Dede\obj\Debug\net6.0\Dede.AssemblyInfo.cs
+C:\Users\Student\source\repos\Dede\Dede\obj\Debug\net6.0\Dede.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\Dede\Dede\bin\Debug\net6.0\Dede.exe
+C:\Users\Student\source\repos\Dede\Dede\bin\Debug\net6.0\Dede.deps.json
+C:\Users\Student\source\repos\Dede\Dede\bin\Debug\net6.0\Dede.runtimeconfig.json
+C:\Users\Student\source\repos\Dede\Dede\bin\Debug\net6.0\Dede.dll
+C:\Users\Student\source\repos\Dede\Dede\bin\Debug\net6.0\Dede.pdb
+C:\Users\Student\source\repos\Dede\Dede\obj\Debug\net6.0\Dede.dll
+C:\Users\Student\source\repos\Dede\Dede\obj\Debug\net6.0\refint\Dede.dll
+C:\Users\Student\source\repos\Dede\Dede\obj\Debug\net6.0\Dede.pdb
+C:\Users\Student\source\repos\Dede\Dede\obj\Debug\net6.0\Dede.genruntimeconfig.cache
+C:\Users\Student\source\repos\Dede\Dede\obj\Debug\net6.0\ref\Dede.dll

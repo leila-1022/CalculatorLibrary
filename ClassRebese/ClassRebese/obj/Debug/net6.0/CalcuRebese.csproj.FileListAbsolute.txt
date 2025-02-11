@@ -1,0 +1,5 @@
+C:\Users\Student\source\repos\ClassRebese\ClassRebese\obj\Debug\net6.0\CalcuRebese.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\ClassRebese\ClassRebese\obj\Debug\net6.0\CalcuRebese.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\ClassRebese\ClassRebese\obj\Debug\net6.0\CalcuRebese.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\ClassRebese\ClassRebese\obj\Debug\net6.0\CalcuRebese.AssemblyInfo.cs
+C:\Users\Student\source\repos\ClassRebese\ClassRebese\obj\Debug\net6.0\CalcuRebese.csproj.CoreCompileInputs.cache

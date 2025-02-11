@@ -1,0 +1,15 @@
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\bin\Debug\net6.0\BasicWithProperty.exe
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\bin\Debug\net6.0\BasicWithProperty.deps.json
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\bin\Debug\net6.0\BasicWithProperty.runtimeconfig.json
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\bin\Debug\net6.0\BasicWithProperty.dll
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\bin\Debug\net6.0\BasicWithProperty.pdb
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\BasicWithProperty.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\BasicWithProperty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\BasicWithProperty.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\BasicWithProperty.AssemblyInfo.cs
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\BasicWithProperty.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\BasicWithProperty.dll
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\refint\BasicWithProperty.dll
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\BasicWithProperty.pdb
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\BasicWithProperty.genruntimeconfig.cache
+C:\Users\Student\source\repos\BasicWithProperty\BasicWithProperty\obj\Debug\net6.0\ref\BasicWithProperty.dll

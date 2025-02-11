@@ -1,0 +1,5 @@
+C:\Users\Student\source\repos\CalculatorAllan\CalculatorAllan\obj\Debug\net6.0\CalculatorAllan.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\CalculatorAllan\CalculatorAllan\obj\Debug\net6.0\CalculatorAllan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\CalculatorAllan\CalculatorAllan\obj\Debug\net6.0\CalculatorAllan.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\CalculatorAllan\CalculatorAllan\obj\Debug\net6.0\CalculatorAllan.AssemblyInfo.cs
+C:\Users\Student\source\repos\CalculatorAllan\CalculatorAllan\obj\Debug\net6.0\CalculatorAllan.csproj.CoreCompileInputs.cache
