@@ -12,4 +12,5 @@ b = int.Parse(Console.ReadLine() ?? "0");
 
 Console.WriteLine($"The sum of {a} and {b} is {CalculatorLibrary.Formulas.Basic.Addition(a, b)}");
 Console.WriteLine($"The difference of {a} and {b} is {CalculatorLibrary.Formulas.Basic.Subtraction(a, b)}");
-
+Console.WriteLine($"The product of {a} and {b} is {CalculatorLibrary.Formulas.Basic.Multiplication(a, b)}");
+Console.WriteLine($"The quotient of {a} and {b} is {CalculatorLibrary.Formulas.Basic.Division(a, b)}");
