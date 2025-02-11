@@ -1,9 +1,12 @@
+using CalculatorLibrary;
 using CalculatorLibrary.Formulas;
 
-Console.Write("first number: ");
-BasicWithProperties.firstNumber = Convert.ToDecimal(Console.ReadLine());
+Console.Write("Enter First Number: ");
+decimal.TryParse(Console.ReadLine(), out var firstNumber);
+Console.Write("Enter Second Number: ");
+decimal.TryParse(Console.ReadLine(), out var secondNumber);
 
-Console.Write("second number: ");
-BasicWithProperties.secondNumber = Convert.ToDecimal(Console.ReadLine());
-
-Console.WriteLine(BasicWithProperties.getAddition());
+BasicwithProperties.FirstNumber = firstNumber;
+BasicwithProperties.SecondNumber = secondNumber;
+Console.WriteLine(BasicwithProperties.GetAddition());
+g
