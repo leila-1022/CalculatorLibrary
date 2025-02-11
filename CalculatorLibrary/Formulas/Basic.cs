@@ -31,4 +31,14 @@ namespace CalculatorLibrary.Formulas
             return a / b;
         }
     }
+
+    public static class BasicWithProperties
+    {
+        public static decimal firstNumber {get; set;}
+        public static decimal secondNumber {get; set;}
+        public static string getAddition()
+        {
+            return $"The sum of {firstNumber} and {secondNumber} is {firstNumber + secondNumber}";
+        }
+    }
 }
