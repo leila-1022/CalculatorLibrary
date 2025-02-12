@@ -6,29 +6,15 @@ using System.Threading.Tasks;
 
 namespace CalculatorLibraryE.Formulas
 {
-    public static class Basic
+    public class BasicWithProperties
     {
-        public static int Addition(int a, int b)
+        public static decimal FirstNumber { get; set; }
+        public static decimal SecondNumber { get; set; }
+
+        public static string getAddition()
         {
-            return a + b;
+            return $"{FirstNumber} + {SecondNumber} = {FirstNumber + SecondNumber}";
         }
 
-        public static int Subtraction(int a, int b)
-        {
-            return a - b;
-        }
-
-        public static int Multiplication(int a, int b)
-        {
-            return a * b;
-        }
-
-        public static decimal Division(decimal a, decimal b)
-        {
-            if (b == 0)
-                throw new Exception("Denominator cannot be zero.");
-
-            return a / b;
-        }
     }
 }
