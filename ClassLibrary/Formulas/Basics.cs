@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CalculatorLibrary.Formulas
+namespace ClassLibrary.Formulas
 {
     public static class Basic
     {
