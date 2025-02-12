@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CalculatorLibraryE/1.0.0": {
+        "runtime": {
+          "CalculatorLibraryE.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalculatorLibraryE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

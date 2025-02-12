@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ToukaKirishima/1.0.0": {
+        "dependencies": {
+          "CalculatorE": "1.0.0",
+          "CalculatorLibraryE": "1.0.0"
+        },
+        "runtime": {
+          "ToukaKirishima.dll": {}
+        }
+      },
+      "CalculatorE/1.0.0": {
+        "dependencies": {
+          "CalculatorLibraryE": "1.0.0"
+        },
+        "runtime": {
+          "CalculatorE.dll": {}
+        }
+      },
+      "CalculatorLibraryE/1.0.0": {
+        "runtime": {
+          "CalculatorLibraryE.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ToukaKirishima/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalculatorE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalculatorLibraryE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
