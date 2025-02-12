@@ -26,7 +26,7 @@ namespace CalculatorLibraryV2.Formulas
         public static decimal Division(decimal a, decimal b)
         {
             if (b == 0)
-                throw new Exception("Denominator cannot be zero.");
+                throw new DivideByZeroException("Denominator cannot be zero.");
 
             return a / b;
         }

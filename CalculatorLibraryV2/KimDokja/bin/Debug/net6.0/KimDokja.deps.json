@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "KimDokja/1.0.0": {
+        "dependencies": {
+          "CalcuLibs": "1.0.0",
+          "CalculatorLibraryV2": "1.0.0"
+        },
+        "runtime": {
+          "KimDokja.dll": {}
+        }
+      },
+      "CalculatorLibraryV2/1.0.0": {
+        "runtime": {
+          "CalculatorLibraryV2.dll": {}
+        }
+      },
+      "CalcuLibs/1.0.0": {
+        "dependencies": {
+          "CalculatorLibraryV2": "1.0.0"
+        },
+        "runtime": {
+          "CalcuLibs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KimDokja/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalculatorLibraryV2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalcuLibs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

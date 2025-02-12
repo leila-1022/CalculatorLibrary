@@ -1,4 +1,5 @@
 ﻿using CalculatorLibraryV2;
+using CalculatorLibraryV2.Formulas;
 
 int a = 0, b = 0;
 
