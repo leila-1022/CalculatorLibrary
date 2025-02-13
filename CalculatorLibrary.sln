@@ -1,21 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-<<<<<<< HEAD
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibrary", "CalculatorLibrary\CalculatorLibrary.csproj", "{71F0281D-912B-4629-8E06-DFCF4F590FC2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{D9940673-D6E3-4800-8E8D-CC83DC44CD48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWithProperties", "CalculatorWithProperties\CalculatorWithProperties.csproj", "{D9940673-D6E3-4800-8E8D-CC83DC44CD48}"
-=======
-VisualStudioVersion = 17.12.35707.178 d17.12
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibrary", "CalculatorLibrary\CalculatorLibrary.csproj", "{8888AB8D-1E18-48C6-8225-5CFF9F77D4F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWithProperties", "CalculatorWithProperties\CalculatorWithProperties.csproj", "{90D32331-8073-4ED7-9094-429010F7EEE3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcuLibs", "CalcuLibs\CalcuLibs.csproj", "{4A0B873D-D487-4E05-AE14-226648DF0D45}"
->>>>>>> 99e8a07 (Add project files.)
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,7 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-<<<<<<< HEAD
 		{71F0281D-912B-4629-8E06-DFCF4F590FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{71F0281D-912B-4629-8E06-DFCF4F590FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71F0281D-912B-4629-8E06-DFCF4F590FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -32,16 +25,14 @@ Global
 		{D9940673-D6E3-4800-8E8D-CC83DC44CD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9940673-D6E3-4800-8E8D-CC83DC44CD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9940673-D6E3-4800-8E8D-CC83DC44CD48}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
-		{8888AB8D-1E18-48C6-8225-5CFF9F77D4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8888AB8D-1E18-48C6-8225-5CFF9F77D4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8888AB8D-1E18-48C6-8225-5CFF9F77D4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8888AB8D-1E18-48C6-8225-5CFF9F77D4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D32331-8073-4ED7-9094-429010F7EEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D32331-8073-4ED7-9094-429010F7EEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D32331-8073-4ED7-9094-429010F7EEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D32331-8073-4ED7-9094-429010F7EEE3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4A0B873D-D487-4E05-AE14-226648DF0D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4A0B873D-D487-4E05-AE14-226648DF0D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A0B873D-D487-4E05-AE14-226648DF0D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A0B873D-D487-4E05-AE14-226648DF0D45}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> 99e8a07 (Add project files.)
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
