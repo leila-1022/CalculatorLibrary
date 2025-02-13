@@ -11,7 +11,6 @@ namespace CalculatorLibrary.Formulas.Shapes
     /// </summary>
     public class Circle
     {
-        
         public static double radius {get; set;}
 
         public static string getArea() {

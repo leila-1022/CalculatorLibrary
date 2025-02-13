@@ -22,5 +22,5 @@ Rectangle.height = 5.0;
 Rectangle.width = 5.0;
 Console.WriteLine($"rectangle height: {Rectangle.height}");
 Console.WriteLine($"rectangle width: {Rectangle.width}");
-Console.WriteLine($"Area of circle: {Rectangle.getArea()}");
-Console.WriteLine($"Perimeter of circle: {Rectangle.getPerimeter()}");
+Console.WriteLine($"Area of rectangle: {Rectangle.getArea()}");
+Console.WriteLine($"Perimeter of rectangle: {Rectangle.getPerimeter()}");
