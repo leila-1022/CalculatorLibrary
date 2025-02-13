@@ -1,12 +1,30 @@
 ﻿using CalculatorLibrary;
 using CalculatorLibrary.Formulas;
 
-Console.Write("Enter first number: ");
-decimal.TryParse(Console.ReadLine(), out var firstNumber);    
-Console.Write("Enter second number: ");
-decimal.TryParse(Console.ReadLine(), out var secondNumber);
+class Program
+{
+    static void Main()
+    {
+      
+        Console.Write("Enter first number: ");
+        if (decimal.TryParse(Console.ReadLine(), out var firstNumber))
+        {
+            Console.Write("Enter second number: ");
+            if (decimal.TryParse(Console.ReadLine(), out var secondNumber))
+            {
+                BasicWithProperties.FirstNumber = firstNumber;
+                BasicWithProperties.SecondNumber = secondNumber;
 
-BasicWithProperties.FirstNumber  = firstNumber;
-BasicWithProperties.SecondNumber = secondNumber;
-
-Console.WriteLine(BasicWithProperties.GetAddition());
+                Console.WriteLine($"Addition result: {BasicWithProperties.GetAddition()}");
+            }
+            else
+            {
+                Console.WriteLine("Error! Please input a valid number for the second number.");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Error! Please input a valid number for the first number.");
+        }
+    }
+}
