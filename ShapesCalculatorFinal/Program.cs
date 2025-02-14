@@ -1,6 +1,14 @@
 ﻿using System;
 using CalculatorLibrary;
 
+
+/*
+    Group Name: KyJulChim
+    Group Members: Kyla Caballero
+                   Julia Yashika Kong
+                   Leachim Dela Cerna
+ */
+
 class Program
 {
     static void Main()
