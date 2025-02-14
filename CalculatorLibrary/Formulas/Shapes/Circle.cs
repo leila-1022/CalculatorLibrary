@@ -9,7 +9,18 @@ namespace CalculatorLibrary.Formulas.Shapes
     /// <summary>
     /// Add methods and properties to get the circle's circumference and area
     /// </summary>
-    internal class Circle
+    public static class Circle
     {
+        public static double Radius { get; set; }
+
+        public static double Area()
+        {
+            return Math.PI * (Radius * Radius);
+        }
+
+        public static double Circumference()
+        {
+            return 2 * Math.PI * Radius;
+        }
     }
 }
