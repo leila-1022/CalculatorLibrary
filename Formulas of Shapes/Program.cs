@@ -2,6 +2,13 @@
 using System.Runtime.CompilerServices;
 using CalculatorLibrary;
 
+/*
+    Group Name: 3Idyots
+    Group Members:
+    Syllanto, Mary Jocelyn
+    Tajanlangit, Maverick
+    Verano, Kierstien
+ */
 class Program
 {
     static void Main()
