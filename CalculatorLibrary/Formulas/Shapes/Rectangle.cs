@@ -9,7 +9,18 @@ namespace CalculatorLibrary.Formulas.Shapes
     /// <summary>
     /// Add methods and properties to get the rectangle's Area and Perimeter
     /// </summary>
-    internal class Rectangle
+    public static class Rectangle
     {
+        public static decimal Length { get; set; }
+        public static decimal Width { get; set; }
+
+        public static string GetRecArea()
+        {
+            return $"The area of the rectangle is {Length * Width}";
+        }
+        public static string GetRecPerimeter()
+        {
+            return $"The perimeter of the rectangle is {2 * (Length + Width)}";
+        }
     }
 }
