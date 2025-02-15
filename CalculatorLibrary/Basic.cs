@@ -8,17 +8,11 @@ namespace CalculatorLibrary.Formulas
 {
     public static class Basic
     {
-        /// <summary>
-        /// Addition
-        /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <returns></returns>
-        public static int Addition(int a, int b) 
+        public static int Addition(int a, int b)
         {
             return a + b;
         }
-        
+
         public static int Subtraction(int a, int b)
         {
             return a - b;
