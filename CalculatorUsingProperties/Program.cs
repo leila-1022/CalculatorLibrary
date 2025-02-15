@@ -1,5 +1,5 @@
-﻿using CalculatorLibrary;
-using CalculatorLibrary.Formulas;
+﻿using CalculatorLibrary1;
+using CalculatorLibrary1.Formulas;
 
 class Program
 {

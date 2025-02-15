@@ -1,4 +1,6 @@
-﻿
+﻿using CalculatorLibrary1;
+
+
 class Program
 {
     static void Main(string[] args)
@@ -12,10 +14,10 @@ class Program
             Console.Write("Enter value for the second number: ");
             if (int.TryParse(Console.ReadLine() ?? "0", out secondNumber))
             {
-                Console.WriteLine($"The sum of {firstNumber} and {secondNumber} is {CalculatorLibrary.Formulas.Basic.Addition(firstNumber, secondNumber)}");
-                Console.WriteLine($"The difference of {firstNumber} and {secondNumber} is {CalculatorLibrary.Formulas.Basic.Subtraction(firstNumber, secondNumber)}");
-                Console.WriteLine($"The product of {firstNumber} and {secondNumber} is {CalculatorLibrary.Formulas.Basic.Multiplication(firstNumber, secondNumber)}");
-                Console.WriteLine($"The quotient of {firstNumber} and {secondNumber} is {CalculatorLibrary.Formulas.Basic.Division(firstNumber, secondNumber)}");
+                Console.WriteLine($"The sum of {firstNumber} and {secondNumber} is {CalculatorLibrary1.Formulas.Basic.Addition(firstNumber, secondNumber)}");
+                Console.WriteLine($"The difference of {firstNumber} and {secondNumber} is {CalculatorLibrary1.Formulas.Basic.Subtraction(firstNumber, secondNumber)}");
+                Console.WriteLine($"The product of {firstNumber} and {secondNumber} is {CalculatorLibrary1.Formulas.Basic.Multiplication(firstNumber, secondNumber)}");
+                Console.WriteLine($"The quotient of {firstNumber} and {secondNumber} is {CalculatorLibrary1.Formulas.Basic.Division(firstNumber, secondNumber)}");
             }
             else
             {

@@ -1,4 +1,6 @@
 ﻿using System;
+using CalculatorLibrary1.Formulas;
+using CalculatorLibrary1;
 
 class Program
 {
@@ -27,10 +29,10 @@ class Program
                         Console.Write("Enter a value for the radius: ");
                         if (double.TryParse(Console.ReadLine(), out var radius))
                         {
-                            CalculatorLibrary.Formulas.Shapes.Circle.Radius = radius;
+                            CalculatorLibrary1.Formulas.Shapes.Circle.Radius = radius;
 
-                            Console.WriteLine($"Circle result for Area: {CalculatorLibrary.Formulas.Shapes.Circle.Area()}");
-                            Console.WriteLine($"Circle result for Circumference: {CalculatorLibrary.Formulas.Shapes.Circle.Circumference()}");
+                            Console.WriteLine($"Circle result for Area: {CalculatorLibrary1.Formulas.Shapes.Circle.Area()}");
+                            Console.WriteLine($"Circle result for Circumference: {CalculatorLibrary1.Formulas.Shapes.Circle.Circumference()}");
                         }
                         else
                         {
@@ -45,11 +47,11 @@ class Program
                             Console.Write("Enter a value for the Width: ");
                             if (double.TryParse(Console.ReadLine(), out var width))
                             {
-                                CalculatorLibrary.Formulas.Shapes.Rectangle.Length = length;
-                                CalculatorLibrary.Formulas.Shapes.Rectangle.Width = width;
+                                CalculatorLibrary1.Formulas.Shapes.Rectangle.Length = length;
+                                CalculatorLibrary1.Formulas.Shapes.Rectangle.Width = width;
 
-                                Console.WriteLine($"Rectangle result for Area: {CalculatorLibrary.Formulas.Shapes.Rectangle.Area()}");
-                                Console.WriteLine($"Rectangle result for Perimeter: {CalculatorLibrary.Formulas.Shapes.Rectangle.Perimeter()}");
+                                Console.WriteLine($"Rectangle result for Area: {CalculatorLibrary1.Formulas.Shapes.Rectangle.Area()}");
+                                Console.WriteLine($"Rectangle result for Perimeter: {CalculatorLibrary1.Formulas.Shapes.Rectangle.Perimeter()}");
                             }
                             else
                             {
@@ -66,10 +68,10 @@ class Program
                         Console.Write("Enter a value for Side: ");
                         if (double.TryParse(Console.ReadLine(), out var side))
                         {
-                            CalculatorLibrary.Formulas.Shapes.Square.Side = side;
+                            CalculatorLibrary1.Formulas.Shapes.Square.Side = side;
 
-                            Console.WriteLine($"Square result for Area: {CalculatorLibrary.Formulas.Shapes.Square.Area()}");
-                            Console.WriteLine($"Square result for Perimeter: {CalculatorLibrary.Formulas.Shapes.Square.Perimeter()}");
+                            Console.WriteLine($"Square result for Area: {CalculatorLibrary1.Formulas.Shapes.Square.Area()}");
+                            Console.WriteLine($"Square result for Perimeter: {CalculatorLibrary1.Formulas.Shapes.Square.Perimeter()}");
                         }
                         else
                         {
