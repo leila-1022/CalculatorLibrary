@@ -30,7 +30,6 @@ class Program
             if (choice == "4")
             {
                 Console.WriteLine("Goodbye and Thank You For Using!");
-                Environment.Exit(0);
                 break;
             }
 
@@ -38,18 +37,34 @@ class Program
             {
                 case "1":
                     Console.Clear();
+                    double radius;
                     Console.Write("Enter radius: ");
-                    double radius = double.Parse(Console.ReadLine() == "" ? "0" : Console.ReadLine() ?? "0");
+                    while (!double.TryParse(Console.ReadLine(), out radius))
+                    {
+                        Console.WriteLine("Invalid input. Please enter a valid number for radius.");
+                        Console.Write("Enter radius: ");
+                    }
                     CalculatorLibrary.Formulas.Shapes.Circle.Radius = radius;
                     Console.WriteLine($"Circumference: {CalculatorLibrary.Formulas.Shapes.Circle.Circumference()}\nArea: {CalculatorLibrary.Formulas.Shapes.Circle.Area()}");
                     break;
 
                 case "2":
                     Console.Clear();
+                    double width, length;
                     Console.Write("Enter width: ");
-                    double width = double.Parse(Console.ReadLine() ?? "0");
+                    while (!double.TryParse(Console.ReadLine(), out width))
+                    {
+                        Console.WriteLine("Invalid input. Please enter a valid number for width.");
+                        Console.Write("Enter width: ");
+                    }
+
                     Console.Write("Enter length: ");
-                    double length = double.Parse(Console.ReadLine() ?? "0");
+                    while (!double.TryParse(Console.ReadLine(), out length))
+                    {
+                        Console.WriteLine("Invalid input. Please enter a valid number for length.");
+                        Console.Write("Enter length: ");
+                    }
+
                     CalculatorLibrary.Formulas.Shapes.Rectangle.Width = width;
                     CalculatorLibrary.Formulas.Shapes.Rectangle.Length = length;
                     Console.WriteLine($"Area: {CalculatorLibrary.Formulas.Shapes.Rectangle.Area()}\nPerimeter: {CalculatorLibrary.Formulas.Shapes.Rectangle.Perimeter()}");
@@ -57,8 +72,13 @@ class Program
 
                 case "3":
                     Console.Clear();
+                    double side;
                     Console.Write("Enter side: ");
-                    double side = double.Parse(Console.ReadLine() ?? "0");
+                    while (!double.TryParse(Console.ReadLine(), out side))
+                    {
+                        Console.WriteLine("Invalid input. Please enter a valid number for side.");
+                        Console.Write("Enter side: ");
+                    }
                     CalculatorLibrary.Formulas.Shapes.Square.Side = side;
                     Console.WriteLine($"Area: {CalculatorLibrary.Formulas.Shapes.Square.Area()}\nPerimeter: {CalculatorLibrary.Formulas.Shapes.Square.Perimeter()}");
                     break;
@@ -67,6 +87,9 @@ class Program
                     Console.WriteLine("Invalid choice.");
                     break;
             }
+
+            Console.WriteLine("\nPress any key to return.");
+            Console.ReadKey();
         }
     }
 }
