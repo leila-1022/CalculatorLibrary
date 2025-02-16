@@ -6,18 +6,10 @@ using System.Threading.Tasks;
 
 namespace CalculatorLibrary.Formulas.Shapes
 {
-    public static class Circle
+    /// <summary>
+    /// Add methods and properties to get the circle's circumference and area
+    /// </summary>
+    internal class Circle
     {
-        public static double Circumference(double radius)
-        {
-            double radius_S = 2 * Math.PI * radius; ;
-            return (Math.Round(radius_S, 2));
-        }
-
-        public static double Area(double radius)
-        {
-            double radius_A = Math.PI * Math.Pow(radius, 2);
-            return (Math.Round(radius_A, 2));
-        }
     }
 }
