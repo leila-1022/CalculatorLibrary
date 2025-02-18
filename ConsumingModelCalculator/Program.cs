@@ -21,4 +21,4 @@ foreach (var item in _number.ListOfNumbers)
 Console.WriteLine();
 
 double average = _number.ListOfNumbers.Average();
-Console.WriteLine($"The average of the number is: {average}");
+Console.WriteLine($"The average of all the number is: {average}");
