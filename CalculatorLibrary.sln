@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorUsingProperties", "CalculatorUsingProperties\CalculatorUsingProperties.csproj", "{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesCalculator", "ShapesCalculator\ShapesCalculator.csproj", "{B44B6B27-2C2B-468A-8DCB-9B9582E26A00}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +36,5 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2220415A-8521-4A4A-B6FF-10E6B4E1F42E}
 	EndGlobalSection
 EndGlobal
