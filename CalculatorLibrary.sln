@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorUsingProperties", "CalculatorUsingProperties\CalculatorUsingProperties.csproj", "{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeCalculator1", "ShapeCalculator1\ShapeCalculator1.csproj", "{38AE7101-6409-4C29-9615-DF084C7A5497}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeCalculator1", "ShapeCalculator1\ShapeCalculator1.csproj", "{38AE7101-6409-4C29-9615-DF084C7A5497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumingModelCalculator", "ConsumingModelCalculator\ConsumingModelCalculator.csproj", "{92FB7B6D-DDBD-4692-8F70-37E8EA6F2FED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{38AE7101-6409-4C29-9615-DF084C7A5497}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38AE7101-6409-4C29-9615-DF084C7A5497}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38AE7101-6409-4C29-9615-DF084C7A5497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92FB7B6D-DDBD-4692-8F70-37E8EA6F2FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FB7B6D-DDBD-4692-8F70-37E8EA6F2FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FB7B6D-DDBD-4692-8F70-37E8EA6F2FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FB7B6D-DDBD-4692-8F70-37E8EA6F2FED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
