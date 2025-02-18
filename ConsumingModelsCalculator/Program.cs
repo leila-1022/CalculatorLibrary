@@ -21,10 +21,5 @@ try
     Console.WriteLine();
     Console.WriteLine("Getting the average!");
     Console.WriteLine("Getting the sum");
-    int sum = 0;
-    for (int i = 0; i < amtNums; i++) {
-        sum += nums.nums[i];
-    }
-    Console.WriteLine($"The sum is {sum}");
-    Console.WriteLine($"The average is {((float)sum)/((float)amtNums)}");
+    Console.WriteLine($"The average is {nums.average}");
 } catch {}
