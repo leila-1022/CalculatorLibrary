@@ -6,112 +6,168 @@
 using CalculatorLibrary;
 using CalculatorLibrary.Formulas;
 using CalculatorLibrary.Formulas.Shapes;
-using System.Xml.Serialization;
+using System;
 
-int choice;
-do
+class Program
 {
-    Console.Clear();
-    Console.WriteLine("┌───────────────────────┐");
-    Console.WriteLine("│    Choose a shape     │");
-    Console.WriteLine("├───────────────────────┤");
-    Console.WriteLine("│  1. Circle            │");
-    Console.WriteLine("│  2. Rectangle         │");
-    Console.WriteLine("│  3. Square            │");
-    Console.WriteLine("└───────────────────────┘");
-
-    Console.Write("Enter your choice: ");
-    choice = int.Parse(Console.ReadLine() ?? "0");
-} while (choice < 1 || choice > 3);
-
-switch (choice)
-{
-    case 1:
-        Console.Clear();
-        Console.WriteLine("Circle Calculator\n");
-        int option = 0;
+    static void Main()
+    {
+        int choice;
         do
         {
-            Console.Write("Solve for the circumference of the circle using (1.Radius/2.Diameter/3.Area): ");
-            option = int.Parse(Console.ReadLine() ?? "0");
-        } while (option < 1 || option > 3);
-        switch (option)
-        {
-            case 1:
-                Console.Write("\nEnter Radius: ");
-                decimal.TryParse(Console.ReadLine(), out var radius);
-                Circle.Radius = radius;
-                Console.WriteLine(Circle.GetCircRadius());
-                break;
-            case 2:
-                Console.Write("\nEnter Diameter: ");
-                decimal.TryParse(Console.ReadLine(), out var diameter);
-                Circle.Diameter = diameter;
-                Console.WriteLine(Circle.GetCircDiameter());
-                break;
-            case 3:
-                Console.Write("\nEnter Area: ");
-                decimal.TryParse(Console.ReadLine(), out var area);
-                Circle.Area = area;
-                Console.WriteLine(Circle.GetCircArea());
-                break;
-        }
-        do
-        {
-            Console.Write("\nSolve for the area of the circle using (1.Radius/2.Diameter/3.Area): ");
-            option = int.Parse(Console.ReadLine() ?? "0");
-        } while (option < 1 || option > 3);
-        switch (option)
-        {
-            case 1:
-                Console.Write("\nEnter Radius: ");
-                decimal.TryParse(Console.ReadLine(), out var radius);
-                Circle.Radius = radius;
-                Console.WriteLine(Circle.GetAreaRadius());
-                break;
-            case 2:
-                Console.Write("\nEnter Diameter: ");
-                decimal.TryParse(Console.ReadLine(), out var diameter);
-                Circle.Diameter = diameter;
-                Console.WriteLine(Circle.GetAreaDiameter());
-                break;
-            case 3:
-                Console.Write("\nEnter Circumference: ");
-                decimal.TryParse(Console.ReadLine(), out var circumference);
-                Circle.Circumference = circumference;
-                Console.WriteLine(Circle.GetAreaCircumference());
-                break;
-        }
-        break;
+            Console.Clear();
+            Console.WriteLine("┌───────────────────────┐");
+            Console.WriteLine("│    Choose a shape     │");
+            Console.WriteLine("├───────────────────────┤");
+            Console.WriteLine("│  1. Circle            │");
+            Console.WriteLine("│  2. Rectangle         │");
+            Console.WriteLine("│  3. Square            │");
+            Console.WriteLine("└───────────────────────┘");
 
-    case 2:
+            Console.Write("Enter your choice: ");
+
+        }
+        while (!int.TryParse(Console.ReadLine(), out choice) || choice < 1 || choice > 3);
+        switch (choice)
+        {
+            case 1:
+
+                SolveCircle();
+                break;
+            case 2:
+
+                SolveRectangle();
+                break;
+            case 3:
+                SolveSquare();
+                break;
+        }
+        static void SolveCircle()
+        {
+            Console.Clear();
+            Console.WriteLine("Circle Calculator\n");
+
+            int circOption;
+            do
+            {
+                Console.Write("Solve for the circumference using (1.Radius/2.Diameter/3.Area): ");
+            }
+            while (!int.TryParse(Console.ReadLine(), out circOption) || circOption < 1 || circOption > 3);
+
+            decimal value;
+
+            switch (circOption)
+            {
+                case 1:
+                    Console.Write("\n Enter Radius: ");
+                    if (decimal.TryParse(Console.ReadLine(), out value))
+                    {
+                        Circle.Radius = value;
+                        Console.WriteLine(Circle.GetCircRadius());
+
+                    }
+                    break;
+
+                case 2:
+                    Console.Write("/n Enter Diameter: ");
+                    if (decimal.TryParse(Console.ReadLine(), out value))
+                    {
+                        Circle.Diameter = value;
+                        Console.WriteLine(Circle.GetCircDiameter());
+                    }
+                    break;
+
+                case 3:
+                    Console.Write("/n Enter Area: ");
+                    if (decimal.TryParse(Console.ReadLine(), out value))
+                    {
+                        Circle.Area = value;
+                        Console.WriteLine(Circle.GetCircArea());
+                    }
+                    break;
+            }
+
+            int areaOption;
+            {
+                do
+                {
+                    Console.Write("\nSolve for the area using (1.Radius / 2.Diameter / 3.Circumference): ");
+                } while (!int.TryParse(Console.ReadLine(), out areaOption) || areaOption < 1 || areaOption > 3);
+
+                switch (areaOption)
+                {
+                    case 1:
+                        Console.Write("\nEnter Radius: ");
+                        if (decimal.TryParse(Console.ReadLine(), out value))
+                        {
+                            Circle.Radius = value;
+                            Console.WriteLine(Circle.GetAreaRadius());
+                        }
+                        break;
+                    case 2:
+                        Console.Write("\nEnter Diameter: ");
+                        if (decimal.TryParse(Console.ReadLine(), out value))
+                        {
+                            Circle.Diameter = value;
+                            Console.WriteLine(Circle.GetAreaDiameter());
+                        }
+                        break;
+                    case 3:
+                        Console.Write("\nEnter Circumference: ");
+                        if (decimal.TryParse(Console.ReadLine(), out value))
+                        {
+                            Circle.Circumference = value;
+                            Console.WriteLine(Circle.GetAreaCircumference());
+                        }
+                        break;
+                }
+            }
+            
+        }
+    }
+    static void SolveRectangle()
+    {
         Console.Clear();
         Console.WriteLine("Rectangle Calculator\n");
 
+        decimal length, width;
         Console.Write("Enter length: ");
-        decimal.TryParse(Console.ReadLine(), out var length);
-        Console.Write("\nEnter width: ");
-        decimal.TryParse(Console.ReadLine(), out var width);
+
+        while (!decimal.TryParse(Console.ReadLine(), out length) || length <= 0)
+        {
+            Console.Write("Invalid input. Enter a positive length: ");
+        }
+
+        Console.Write("Enter width: ");
+        while (!decimal.TryParse(Console.ReadLine(), out width) || width <= 0)
+        {
+            Console.Write("Invalid input. Enter a positive width: ");
+        }
 
         Rectangle.Length = length;
         Rectangle.Width = width;
 
         Console.WriteLine(Rectangle.GetRecArea());
         Console.WriteLine(Rectangle.GetRecPerimeter());
-        break;
 
-    case 3:
+ 
+    }
+    static void SolveSquare()
+    {
         Console.Clear();
         Console.WriteLine("Square Calculator\n");
 
+        decimal side;
         Console.Write("Enter side: ");
-        decimal.TryParse(Console.ReadLine(), out var side);
+        while (!decimal.TryParse(Console.ReadLine(), out side) || side <= 0)
+        {
+            Console.Write("Invalid input. Enter a positive side length: ");
+        }
 
         Square.Side = side;
 
         Console.WriteLine(Square.GetSquArea());
         Console.WriteLine(Square.GetSquPerimeter());
-        break;
-
+    }
 }
-
+   
