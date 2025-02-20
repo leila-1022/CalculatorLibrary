@@ -11,7 +11,7 @@ namespace CalculatorLibrary.Formulas.Statistics
     /// </summary>
     public class BasicFormulas
     {
-        private List<int> _numbers;
+        public List<int> _numbers;
 
         public List<int> Numbers
         {
@@ -28,12 +28,38 @@ namespace CalculatorLibrary.Formulas.Statistics
          */
 
         //Mean
-        public double Mean { get; set; }
+        public double Mean(double average)
+        {
+            get
+            {
+                return Numbers.Sum() / (double)Numbers.Count;
+            }
+        }
+
         //Median
-        public double Median { get; set; }
+        public double Median(double average)
+        {
+            get
+            {
+                return Numbers.Count % 2 == 0
+            ? (Numbers[Numbers.Count / 2] + Numbers[Numbers.Count / 2 - 1]) / 2.0
+            : Numbers[Numbers.Count / 2];
+            }
+        }
         //Mode
-        public List<int> Mode { get; set; }
-        private int _n;
+        public List<int> Mode(double average)
+        {
+            get
+            {
+                return
+                Numbers.GroupBy(n => n)
+            .OrderByDescending(g => g.Count())
+            .Select(g => g.Key)
+            .ToList();
+            }
+        }
+
+        public int _n;
         public int N
         {
             get => _n;
@@ -45,7 +71,7 @@ namespace CalculatorLibrary.Formulas.Statistics
             }
         }
 
-        private int _r;
+        public int _r;
         public int R
         {
             get => _r;
@@ -57,14 +83,18 @@ namespace CalculatorLibrary.Formulas.Statistics
         }
 
         //Permutation
-        public long Permutation { get; set; }
+        public long Permutation => Factorial(N) / Factorial(N - R);
+
+
+
+
 
         private long Factorial(int num)
         {
             long result = 1;
             for (int i = 2; i <= num; i++)
             {
-                result *= 1;
+                result *= i;
             }
 
             return result;
