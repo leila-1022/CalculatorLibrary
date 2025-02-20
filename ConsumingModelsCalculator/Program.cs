@@ -20,6 +20,5 @@ try
     }
     Console.WriteLine();
     Console.WriteLine("Getting the average!");
-    Console.WriteLine("Getting the sum");
     Console.WriteLine($"The average is {nums.average}");
 } catch {}
