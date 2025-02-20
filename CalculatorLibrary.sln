@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorUsingProperties", "CalculatorUsingProperties\CalculatorUsingProperties.csproj", "{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mean,Median,Mode Permutation", "Mean,Median,Mode Permutation\Mean,Median,Mode Permutation.csproj", "{630ECACF-FA19-4B1E-8182-D915EF9A543B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630ECACF-FA19-4B1E-8182-D915EF9A543B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630ECACF-FA19-4B1E-8182-D915EF9A543B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630ECACF-FA19-4B1E-8182-D915EF9A543B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630ECACF-FA19-4B1E-8182-D915EF9A543B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
