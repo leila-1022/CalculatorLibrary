@@ -8,10 +8,13 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{D9940673-D6E3-4800-8E8D-CC83DC44CD48}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorUsingProperties", "CalculatorUsingProperties\CalculatorUsingProperties.csproj", "{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}"
+<<<<<<< HEAD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapesCalculator", "ShapesCalculator\ShapesCalculator.csproj", "{B44B6B27-2C2B-468A-8DCB-9B9582E26A00}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumingModelCalculator", "ConsumingModelCalculator\ConsumingModelCalculator.csproj", "{D7BB2223-63F9-4200-9755-1782259AF3D8}"
+=======
+>>>>>>> e8107ab702a062ff0ebb9138117d631eb5f201e7
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +47,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
 		SolutionGuid = {2220415A-8521-4A4A-B6FF-10E6B4E1F42E}
+=======
+		SolutionGuid = {4B245AAB-C9B1-419E-827C-6798485A1A6A}
+>>>>>>> e8107ab702a062ff0ebb9138117d631eb5f201e7
 	EndGlobalSection
 EndGlobal

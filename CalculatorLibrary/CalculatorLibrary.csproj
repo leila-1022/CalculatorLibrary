@@ -41,13 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Formulas\Basic.cs" />
     <Compile Include="Formulas\BasicWithProperties.cs" />
     <Compile Include="Formulas\Shapes\Circle.cs" />
     <Compile Include="Formulas\Shapes\Rectangle.cs" />
     <Compile Include="Formulas\Shapes\Square.cs" />
+<<<<<<< HEAD
     <Compile Include="Models\Numbers.cs" />
+=======
+    <Compile Include="Formulas\Statistics\BasicFormulas.cs" />
+>>>>>>> e8107ab702a062ff0ebb9138117d631eb5f201e7
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
