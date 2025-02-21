@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\CalculatorLibrary2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CalculatorLibrary2\\CalculatorLibrary\\CalcuLibs\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CalculatorLibrary\\CalcuLibs\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CalculatorLibrary2\\CalculatorLibrary\\CalculatorLibrary\\Formulas\\Statistics\\BasicFormulas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CalculatorLibrary\\CalculatorLibrary\\Formulas\\Statistics\\BasicFormulas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CalculatorLibrary2\\CalculatorLibrary\\CalculatorWithProperties\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CalculatorLibrary\\CalculatorWithProperties\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CalculatorLibrary2\\CalculatorLibrary\\CalculatorLibrary\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CalculatorLibrary\\CalculatorLibrary\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CalculatorLibrary2\\CalculatorLibrary\\CalculatorLibrary\\Basic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CalculatorLibrary\\CalculatorLibrary\\Basic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CalculatorLibrary2\\CalculatorLibrary\\Calculator\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CalculatorLibrary\\Calculator\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CalculatorLibrary2\\CalculatorLibrary\\CalculatorLibrary\\Formulas\\Basic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CalculatorLibrary\\CalculatorLibrary\\Formulas\\Basic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CalculatorLibrary2\\CalculatorLibrary\\ConsumingStatictics-Main-Console\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CalculatorLibrary\\ConsumingStatictics-Main-Console\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,75 +43,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\CalculatorLibrary2\\CalculatorLibrary\\CalcuLibs\\Program.cs",
-              "RelativeDocumentMoniker": "CalculatorLibrary\\CalcuLibs\\Program.cs",
-              "ToolTip": "C:\\CalculatorLibrary2\\CalculatorLibrary\\CalcuLibs\\Program.cs",
-              "RelativeToolTip": "CalculatorLibrary\\CalcuLibs\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "BasicFormulas.cs",
+              "DocumentMoniker": "C:\\CalculatorLibrary2\\CalculatorLibrary\\CalculatorLibrary\\Formulas\\Statistics\\BasicFormulas.cs",
+              "RelativeDocumentMoniker": "CalculatorLibrary\\CalculatorLibrary\\Formulas\\Statistics\\BasicFormulas.cs",
+              "ToolTip": "C:\\CalculatorLibrary2\\CalculatorLibrary\\CalculatorLibrary\\Formulas\\Statistics\\BasicFormulas.cs",
+              "RelativeToolTip": "CalculatorLibrary\\CalculatorLibrary\\Formulas\\Statistics\\BasicFormulas.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAE8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T06:14:59.755Z",
+              "WhenOpened": "2025-02-21T06:54:12.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\CalculatorLibrary2\\CalculatorLibrary\\CalculatorWithProperties\\Program.cs",
-              "RelativeDocumentMoniker": "CalculatorLibrary\\CalculatorWithProperties\\Program.cs",
-              "ToolTip": "C:\\CalculatorLibrary2\\CalculatorLibrary\\CalculatorWithProperties\\Program.cs",
-              "RelativeToolTip": "CalculatorLibrary\\CalculatorWithProperties\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\CalculatorLibrary2\\CalculatorLibrary\\ConsumingStatictics-Main-Console\\Program.cs",
+              "RelativeDocumentMoniker": "CalculatorLibrary\\ConsumingStatictics-Main-Console\\Program.cs",
+              "ToolTip": "C:\\CalculatorLibrary2\\CalculatorLibrary\\ConsumingStatictics-Main-Console\\Program.cs",
+              "RelativeToolTip": "CalculatorLibrary\\ConsumingStatictics-Main-Console\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T06:14:57.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Basic.cs",
-              "DocumentMoniker": "C:\\CalculatorLibrary2\\CalculatorLibrary\\CalculatorLibrary\\Basic.cs",
-              "RelativeDocumentMoniker": "CalculatorLibrary\\CalculatorLibrary\\Basic.cs",
-              "ToolTip": "C:\\CalculatorLibrary2\\CalculatorLibrary\\CalculatorLibrary\\Basic.cs",
-              "RelativeToolTip": "CalculatorLibrary\\CalculatorLibrary\\Basic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T06:14:44.164Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\CalculatorLibrary2\\CalculatorLibrary\\Calculator\\Program.cs",
-              "RelativeDocumentMoniker": "CalculatorLibrary\\Calculator\\Program.cs",
-              "ToolTip": "C:\\CalculatorLibrary2\\CalculatorLibrary\\Calculator\\Program.cs",
-              "RelativeToolTip": "CalculatorLibrary\\Calculator\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T06:14:31.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\CalculatorLibrary2\\CalculatorLibrary\\CalculatorLibrary\\Class1.cs",
-              "RelativeDocumentMoniker": "CalculatorLibrary\\CalculatorLibrary\\Class1.cs",
-              "ToolTip": "C:\\CalculatorLibrary2\\CalculatorLibrary\\CalculatorLibrary\\Class1.cs",
-              "RelativeToolTip": "CalculatorLibrary\\CalculatorLibrary\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T06:14:22.081Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Basic.cs",
-              "DocumentMoniker": "C:\\CalculatorLibrary2\\CalculatorLibrary\\CalculatorLibrary\\Formulas\\Basic.cs",
-              "RelativeDocumentMoniker": "CalculatorLibrary\\CalculatorLibrary\\Formulas\\Basic.cs",
-              "ToolTip": "C:\\CalculatorLibrary2\\CalculatorLibrary\\CalculatorLibrary\\Formulas\\Basic.cs",
-              "RelativeToolTip": "CalculatorLibrary\\CalculatorLibrary\\Formulas\\Basic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T06:13:38.231Z"
+              "WhenOpened": "2025-02-21T06:49:20.926Z",
+              "EditorCaption": ""
             }
           ]
         },

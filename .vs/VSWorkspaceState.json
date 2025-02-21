@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CalculatorLibrary",
+    "\\CalculatorLibrary\\CalculatorLibrary",
+    "\\CalculatorLibrary\\CalculatorLibrary\\Formulas",
+    "\\CalculatorLibrary\\CalculatorLibrary\\Formulas\\Statistics"
   ],
-  "SelectedNode": "\\CalculatorLibrary.sln",
+  "SelectedNode": "\\CalculatorLibrary\\CalculatorLibrary\\Formulas\\Statistics\\BasicFormulas.cs",
   "PreviewInSolutionExplorer": false
 }
