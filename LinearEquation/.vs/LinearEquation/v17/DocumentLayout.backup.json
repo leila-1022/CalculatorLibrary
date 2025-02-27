@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Projects\\VISUAL STUDIO\\PROJECTS C#\\LinearEquation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91338119-C33E-4950-A2C2-A981BFE031A7}|LinearEquation\\LinearEquation.csproj|c:\\users\\user\\desktop\\projects\\visual studio\\projects c#\\linearequation\\linearequation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91338119-C33E-4950-A2C2-A981BFE031A7}|LinearEquation\\LinearEquation.csproj|solutionrelative:linearequation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E138ADB-977A-4059-8699-4C9299439584}|LinearFormula\\LinearFormula.csproj|c:\\users\\user\\desktop\\projects\\visual studio\\projects c#\\linearequation\\linearformula\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E138ADB-977A-4059-8699-4C9299439584}|LinearFormula\\LinearFormula.csproj|solutionrelative:linearformula\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\VISUAL STUDIO\\PROJECTS C#\\LinearEquation\\LinearFormula\\Class1.cs",
+              "RelativeDocumentMoniker": "LinearFormula\\Class1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\VISUAL STUDIO\\PROJECTS C#\\LinearEquation\\LinearFormula\\Class1.cs",
+              "RelativeToolTip": "LinearFormula\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T10:48:17.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Projects\\VISUAL STUDIO\\PROJECTS C#\\LinearEquation\\LinearEquation\\Program.cs",
+              "RelativeDocumentMoniker": "LinearEquation\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Projects\\VISUAL STUDIO\\PROJECTS C#\\LinearEquation\\LinearEquation\\Program.cs",
+              "RelativeToolTip": "LinearEquation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T10:47:28.174Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
