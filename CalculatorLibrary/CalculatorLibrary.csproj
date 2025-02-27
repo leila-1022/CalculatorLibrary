@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{71F0281D-912B-4629-8E06-DFCF4F590FC2}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CalculatorLibrary</RootNamespace>
     <AssemblyName>CalculatorLibrary</AssemblyName>
@@ -30,6 +30,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Formulas\Basic.cs" />
     <Compile Include="Formulas\BasicWithProperties.cs" />
+    <Compile Include="Formulas\LinearEquation.cs" />
     <Compile Include="Formulas\Shapes\Circle.cs" />
     <Compile Include="Formulas\Shapes\Rectangle.cs" />
     <Compile Include="Formulas\Shapes\Square.cs" />
