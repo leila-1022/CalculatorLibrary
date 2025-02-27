@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Projects\VISUAL STUDIO\PROJECTS C#\LinearEquation\LinearFormula\bin\Debug\net8.0\LinearFormula.deps.json
+C:\Users\User\Desktop\Projects\VISUAL STUDIO\PROJECTS C#\LinearEquation\LinearFormula\bin\Debug\net8.0\LinearFormula.dll
+C:\Users\User\Desktop\Projects\VISUAL STUDIO\PROJECTS C#\LinearEquation\LinearFormula\bin\Debug\net8.0\LinearFormula.pdb
+C:\Users\User\Desktop\Projects\VISUAL STUDIO\PROJECTS C#\LinearEquation\LinearFormula\obj\Debug\net8.0\LinearFormula.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Projects\VISUAL STUDIO\PROJECTS C#\LinearEquation\LinearFormula\obj\Debug\net8.0\LinearFormula.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Projects\VISUAL STUDIO\PROJECTS C#\LinearEquation\LinearFormula\obj\Debug\net8.0\LinearFormula.AssemblyInfo.cs
+C:\Users\User\Desktop\Projects\VISUAL STUDIO\PROJECTS C#\LinearEquation\LinearFormula\obj\Debug\net8.0\LinearFormula.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Projects\VISUAL STUDIO\PROJECTS C#\LinearEquation\LinearFormula\obj\Debug\net8.0\LinearFormula.dll
+C:\Users\User\Desktop\Projects\VISUAL STUDIO\PROJECTS C#\LinearEquation\LinearFormula\obj\Debug\net8.0\refint\LinearFormula.dll
+C:\Users\User\Desktop\Projects\VISUAL STUDIO\PROJECTS C#\LinearEquation\LinearFormula\obj\Debug\net8.0\LinearFormula.pdb
+C:\Users\User\Desktop\Projects\VISUAL STUDIO\PROJECTS C#\LinearEquation\LinearFormula\obj\Debug\net8.0\ref\LinearFormula.dll
