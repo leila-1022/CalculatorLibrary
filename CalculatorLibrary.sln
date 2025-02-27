@@ -5,11 +5,11 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibrary", "CalculatorLibrary\CalculatorLibrary.csproj", "{71F0281D-912B-4629-8E06-DFCF4F590FC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{D9940673-D6E3-4800-8E8D-CC83DC44CD48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{D9940673-D6E3-4800-8E8D-CC83DC44CD48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorUsingProperties", "CalculatorUsingProperties\CalculatorUsingProperties.csproj", "{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorUsingProperties", "CalculatorUsingProperties\CalculatorUsingProperties.csproj", "{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeCalculator", "ShapeCalculator\ShapeCalculator.csproj", "{632D6476-5542-43C6-9171-CECDBFD2DB0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excalibur", "Excalibur\Excalibur.csproj", "{89BEAAD0-89B2-43F4-810D-F5FFDBC6D508}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumingModelCalculator", "ConsumingModelCalculator\ConsumingModelCalculator.csproj", "{5E431D03-2157-4F2B-A887-D80875279C3A}"
 EndProject
@@ -35,6 +35,7 @@ Global
 		{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{632D6476-5542-43C6-9171-CECDBFD2DB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{632D6476-5542-43C6-9171-CECDBFD2DB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{632D6476-5542-43C6-9171-CECDBFD2DB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,8 +52,17 @@ Global
 		{ADDE02F8-D150-47C2-ABDC-0A567D4BCBE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADDE02F8-D150-47C2-ABDC-0A567D4BCBE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADDE02F8-D150-47C2-ABDC-0A567D4BCBE5}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{89BEAAD0-89B2-43F4-810D-F5FFDBC6D508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89BEAAD0-89B2-43F4-810D-F5FFDBC6D508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89BEAAD0-89B2-43F4-810D-F5FFDBC6D508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89BEAAD0-89B2-43F4-810D-F5FFDBC6D508}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 909f87470720e29025fb30048e59bf4b50af74fb
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B245AAB-C9B1-419E-827C-6798485A1A6A}
 	EndGlobalSection
 EndGlobal

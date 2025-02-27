@@ -12,13 +12,15 @@ class Program
         Console.WriteLine("3. Square");
 
         Console.Write("Enter your choice: ");
-        int choice = int.Parse(Console.ReadLine() ?? "0");
+        string s_choice = Console.ReadLine();
+        int choice = int.Parse(s_choice == null ? "0" : s_choice);
 
         switch (choice)
         {
             case 1:
                 Console.Write("Enter the length of the rectangle: ");
-                double length = double.Parse(Console.ReadLine() ?? "0");
+                string s_length = Console.ReadLine();
+                double length = double.Parse(s_length == null ? "0" : s_length);
                 if (length == 0)
                 {
                     Console.WriteLine("Length cannot be 0");
@@ -26,7 +28,8 @@ class Program
                     return 0;
                 }
                 Console.Write("Enter the width of the rectangle: ");
-                double width = double.Parse(Console.ReadLine() ?? "0");
+                string s_width = Console.ReadLine();
+                double width = double.Parse(s_width == null ? "0" : s_width);
                 if (width == 0)
                 {
                     Console.WriteLine("Width cannot be 0");
@@ -38,7 +41,8 @@ class Program
                 break;
             case 2:
                 Console.Write("Enter the radius of the circle: ");
-                double radius = double.Parse(Console.ReadLine() ?? "0");
+                string s_radius = Console.ReadLine();
+                double radius = double.Parse(s_radius == null ? "0" : s_radius);
                 if (radius == 0)
                 {
                     Console.WriteLine("Radius cannot be 0");
@@ -50,7 +54,8 @@ class Program
                 break;
             case 3:
                 Console.Write("Enter the side of the square: ");
-                double side = double.Parse(Console.ReadLine() ?? "0");
+                string s_side = Console.ReadLine();
+                double side = double.Parse(s_side == null ? "0" : s_side);
                 if (side == 0)
                 {
                     Console.WriteLine("Side cannot be 0");

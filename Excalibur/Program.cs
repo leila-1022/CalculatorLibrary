@@ -55,9 +55,14 @@ while (!TryAgain)
         statistics.N = int.Parse(Console.ReadLine() ?? "0");
         Console.Write("Please Input The Value of r: ");
         statistics.R = int.Parse(Console.ReadLine() ?? "0");
+<<<<<<< HEAD
         if (statistics.N <= 0 && statistics.R <= 0)
         {
             Console.WriteLine("Invalid Input, Press Key To Try Again From the Top");
+=======
+        if (statistics.N <= 0 && statistics.R <= 0) 
+        {Console.WriteLine("Invalid Input, Press Key To Try Again From the Top");
+>>>>>>> 909f87470720e29025fb30048e59bf4b50af74fb
             Console.ReadKey();
             continue;
         }
