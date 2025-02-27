@@ -2,11 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-<<<<<<< HEAD
     <TargetFramework>net8.0</TargetFramework>
-=======
-    <TargetFramework>net6.0</TargetFramework>
->>>>>>> Saitama_Examination_2
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>

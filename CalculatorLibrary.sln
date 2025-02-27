@@ -5,21 +5,17 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibrary", "CalculatorLibrary\CalculatorLibrary.csproj", "{71F0281D-912B-4629-8E06-DFCF4F590FC2}"
 EndProject
-<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{D9940673-D6E3-4800-8E8D-CC83DC44CD48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWithProperties", "CalculatorWithProperties\CalculatorWithProperties.csproj", "{90D32331-8073-4ED7-9094-429010F7EEE3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcuLibs", "CalcuLibs\CalcuLibs.csproj", "{4A0B873D-D487-4E05-AE14-226648DF0D45}"
-=======
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{D9940673-D6E3-4800-8E8D-CC83DC44CD48}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorUsingProperties", "CalculatorUsingProperties\CalculatorUsingProperties.csproj", "{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesCalculator", "Formulas of Shapes\ShapesCalculator.csproj", "{0CE6903A-B18E-479C-BAF6-FAE30D4283E1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linear-Equation-Main-Console", "Linear-Equation-Main-Console\Linear-Equation-Main-Console.csproj", "{2B9A8599-53C1-48B2-AE6A-79DD0C9B7379}"
->>>>>>> Saitama_Examination_2
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,7 +31,6 @@ Global
 		{D9940673-D6E3-4800-8E8D-CC83DC44CD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9940673-D6E3-4800-8E8D-CC83DC44CD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9940673-D6E3-4800-8E8D-CC83DC44CD48}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{90D32331-8073-4ED7-9094-429010F7EEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{90D32331-8073-4ED7-9094-429010F7EEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90D32331-8073-4ED7-9094-429010F7EEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -44,7 +39,6 @@ Global
 		{4A0B873D-D487-4E05-AE14-226648DF0D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A0B873D-D487-4E05-AE14-226648DF0D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A0B873D-D487-4E05-AE14-226648DF0D45}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
 		{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,15 +51,11 @@ Global
 		{2B9A8599-53C1-48B2-AE6A-79DD0C9B7379}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B9A8599-53C1-48B2-AE6A-79DD0C9B7379}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B9A8599-53C1-48B2-AE6A-79DD0C9B7379}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> Saitama_Examination_2
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-<<<<<<< HEAD
-=======
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {937A5CC8-AEBE-478D-874D-0532BB692840}
 	EndGlobalSection
->>>>>>> Saitama_Examination_2
 EndGlobal

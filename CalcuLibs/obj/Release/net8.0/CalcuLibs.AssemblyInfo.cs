@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalcuLibs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cc56376914c622a51fcac7ccc6f486c86efcea5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+025fbbd86f60938984234ed8c68464d60b47f1d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalcuLibs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalcuLibs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

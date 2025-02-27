@@ -4,6 +4,22 @@
     "C:\\Users\\Lenovo\\OneDrive\\Desktop\\C#\\CalculatorLibrary\\CalculatorLibrary-Saitama_Examination_2\\CalculatorLibrary\\CalcuLibs\\CalcuLibs.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Lenovo\\OneDrive\\Desktop\\C#\\CalculatorLibrary\\CalculatorLibrary-Saitama_Examination_2\\CalculatorLibrary\\CalculatorLibrary\\CalculatorLibrary.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\C#\\CalculatorLibrary\\CalculatorLibrary-Saitama_Examination_2\\CalculatorLibrary\\CalculatorLibrary\\CalculatorLibrary.csproj",
+        "projectName": "CalculatorLibrary",
+        "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\C#\\CalculatorLibrary\\CalculatorLibrary-Saitama_Examination_2\\CalculatorLibrary\\CalculatorLibrary\\CalculatorLibrary.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\Lenovo\\OneDrive\\Desktop\\C#\\CalculatorLibrary\\CalculatorLibrary-Saitama_Examination_2\\CalculatorLibrary\\CalcuLibs\\CalcuLibs.csproj": {
       "version": "1.0.0",
       "restore": {
