@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Formulas\Basic.cs" />
     <Compile Include="Formulas\BasicWithProperties.cs" />
+    <Compile Include="Formulas\LQFormulas.cs" />
     <Compile Include="Formulas\Shapes\Circle.cs" />
     <Compile Include="Formulas\Shapes\Rectangle.cs" />
     <Compile Include="Formulas\Shapes\Square.cs" />
