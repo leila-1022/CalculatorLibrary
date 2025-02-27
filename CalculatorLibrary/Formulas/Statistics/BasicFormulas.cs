@@ -11,55 +11,81 @@ namespace CalculatorLibrary.Formulas.Statistics
     /// </summary>
     public class BasicFormulas
     {
-        public List<int> _numbers;
+        private List<int> _numbers;
 
         public List<int> Numbers
         {
             get => _numbers;
             set
             {
-                _numbers = value;
-                _numbers.Sort();
+                    _numbers = new List<int>(value);
             }
         }
+        public void SetSingleNumber(int number)
+        {
+            Numbers = new List<int> { number };
+        }
+
 
         /*
          Update these properties. DO NOT CREATE FUNCTIONS HERE.
          */
 
+        private int _count;
+        public int Count
+        {
+            get
+            { return _count; }
+            set { if (value < 0) throw new ArgumentException("Error Occured, Invalid Input"); 
+            _count = value;
+            } 
+        }   
         //Mean
-        public double Mean(double average)
-        {
-            get
-            {
-                return Numbers.Sum() / (double)Numbers.Count;
-            }
-        }
-
+        private double _median;
+        private int _mode;
+        private int _maxcount;
+        public double Mean { get; set; }
         //Median
-        public double Median(double average)
+        public double Median 
         {
             get
             {
-                return Numbers.Count % 2 == 0
-            ? (Numbers[Numbers.Count / 2] + Numbers[Numbers.Count / 2 - 1]) / 2.0
-            : Numbers[Numbers.Count / 2];
+                if (_count % 2 == 0)
+                {
+                    return _median = (Numbers[(_count / 2) - 1] + Numbers[_count /  2]) / 2.0;
+                } else
+                {
+                    return _median = Numbers[_count / 2];
+                }
             }
+            set { _median = value; }
         }
         //Mode
-        public List<int> Mode(double average)
+        public int Mode
         {
             get
             {
-                return
-                Numbers.GroupBy(n => n)
-            .OrderByDescending(g => g.Count())
-            .Select(g => g.Key)
-            .ToList();
+                Dictionary<int, int> frequent = new Dictionary<int, int>();
+                foreach (var num in Numbers)
+                {
+                    if (!frequent.ContainsKey(num))
+                    {
+                        frequent[num] = 0;
+                    }
+                    else { frequent[num] += 1; }
+
+                    if (frequent[num] > _maxcount)
+                    {
+                        _maxcount = frequent[num];
+                        _mode = num;
+                    }
+                }
+                return _mode;
             }
+            set { _mode = value; }
         }
 
-        public int _n;
+        private int _n;
         public int N
         {
             get => _n;
@@ -71,23 +97,24 @@ namespace CalculatorLibrary.Formulas.Statistics
             }
         }
 
-        public int _r;
+        private int _r;
         public int R
         {
             get => _r;
             set
             {
-                if (value < 0 || value > N) throw new ArgumentException("R must be between 0 and N.");
-                _r = value;
+                try
+                {
+                    _r = value;
+                }catch (Exception)
+                {
+                    Console.WriteLine("Error! Invalid Input, Reminder! -- R must be between 0, Characters and Keys are not ALLOWED, and R cannot be below 0");
+                }
             }
         }
 
         //Permutation
         public long Permutation => Factorial(N) / Factorial(N - R);
-
-
-
-
 
         private long Factorial(int num)
         {
