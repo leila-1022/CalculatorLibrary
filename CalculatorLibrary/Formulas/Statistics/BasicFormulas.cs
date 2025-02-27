@@ -1,14 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CalculatorLibrary.Formulas.Statistics
 {
-    /// <summary>
-    /// Complete the properties below and create a new console application to consume it. Create a Main Menu
-    /// </summary>
     public class BasicFormulas
     {
         private List<int> _numbers;
@@ -20,19 +15,16 @@ namespace CalculatorLibrary.Formulas.Statistics
             {
                 _numbers = value;
                 _numbers.Sort();
+                CalculateStatistics(); // Recalculate when numbers change
             }
         }
 
-        /*
-         Update these properties. DO NOT CREATE FUNCTIONS HERE.
-         */
-
-        //Mean
-        public double Mean { get; set; }
-        //Median
-        public double Median { get; set; }
-        //Mode
-        public List<int> Mode { get; set; }
+        // Mean
+        public double Mean { get; private set; }
+        // Median
+        public double Median { get; private set; }
+        // Mode
+        public List<int> Mode { get; private set; }
         private int _n;
         public int N
         {
@@ -56,18 +48,50 @@ namespace CalculatorLibrary.Formulas.Statistics
             }
         }
 
-        //Permutation
-        public long Permutation { get; set; }
+        // Permutation
+        public long Permutation { get; private set; }
 
         private long Factorial(int num)
         {
             long result = 1;
             for (int i = 2; i <= num; i++)
             {
-                result *= 1;
+                result *= i;
             }
 
             return result;
+        }
+
+        // Method to calculate Mean, Median, Mode, and Permutation
+        private void CalculateStatistics()
+        {
+            if (_numbers.Count == 0)
+                return;
+
+            // Mean Calculation
+            Mean = _numbers.Average();
+
+            // Median Calculation
+            int count = _numbers.Count;
+            if (count % 2 == 0)
+            {
+                Median = (_numbers[count / 2 - 1] + _numbers[count / 2]) / 2.0;
+            }
+            else
+            {
+                Median = _numbers[count / 2];
+            }
+
+            // Mode Calculation
+            var numberGroups = _numbers.GroupBy(n => n).OrderByDescending(g => g.Count());
+            int maxFrequency = numberGroups.First().Count();
+            Mode = numberGroups.Where(g => g.Count() == maxFrequency).Select(g => g.Key).ToList();
+
+            // Permutation Calculation
+            if (N >= R && N >= 0 && R >= 0)
+            {
+                Permutation = Factorial(N) / Factorial(N - R);
+            }
         }
     }
 }
