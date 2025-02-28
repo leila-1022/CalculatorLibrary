@@ -1,0 +1,5 @@
+C:\Users\Lenovo\OneDrive\Desktop\C#\CalculatorLibrary\CalculatorLibrary-Saitama_Examination_2\CalculatorLibrary\Linear-Equation-Main-Console\obj\Debug\net9.0\Linear-Equation-Main-Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive\Desktop\C#\CalculatorLibrary\CalculatorLibrary-Saitama_Examination_2\CalculatorLibrary\Linear-Equation-Main-Console\obj\Debug\net9.0\Linear-Equation-Main-Console.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive\Desktop\C#\CalculatorLibrary\CalculatorLibrary-Saitama_Examination_2\CalculatorLibrary\Linear-Equation-Main-Console\obj\Debug\net9.0\Linear-Equation-Main-Console.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive\Desktop\C#\CalculatorLibrary\CalculatorLibrary-Saitama_Examination_2\CalculatorLibrary\Linear-Equation-Main-Console\obj\Debug\net9.0\Linear-Equation-Main-Console.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Desktop\C#\CalculatorLibrary\CalculatorLibrary-Saitama_Examination_2\CalculatorLibrary\Linear-Equation-Main-Console\obj\Debug\net9.0\Linear-Equation-Main-Console.sourcelink.json

@@ -1,0 +1,5 @@
+C:\Users\Lenovo\OneDrive\Desktop\C#\CalculatorLibrary\CalculatorLibrary-Saitama_Examination_2\CalculatorLibrary\CalculatorUsingProperties\obj\Debug\net6.0\CalculatorUsingProperties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive\Desktop\C#\CalculatorLibrary\CalculatorLibrary-Saitama_Examination_2\CalculatorLibrary\CalculatorUsingProperties\obj\Debug\net6.0\CalculatorUsingProperties.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive\Desktop\C#\CalculatorLibrary\CalculatorLibrary-Saitama_Examination_2\CalculatorLibrary\CalculatorUsingProperties\obj\Debug\net6.0\CalculatorUsingProperties.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive\Desktop\C#\CalculatorLibrary\CalculatorLibrary-Saitama_Examination_2\CalculatorLibrary\CalculatorUsingProperties\obj\Debug\net6.0\CalculatorUsingProperties.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Desktop\C#\CalculatorLibrary\CalculatorLibrary-Saitama_Examination_2\CalculatorLibrary\CalculatorUsingProperties\obj\Debug\net6.0\CalculatorUsingProperties.sourcelink.json
