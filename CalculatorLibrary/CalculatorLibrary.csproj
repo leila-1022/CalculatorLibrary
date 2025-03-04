@@ -44,6 +44,12 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Formulas\Basic.cs" />
     <Compile Include="Formulas\BasicWithProperties.cs" />
+    <Compile Include="Formulas\LQFormulas.cs" />
+    <Compile Include="Formulas\Shapes\Circle.cs" />
+    <Compile Include="Formulas\Shapes\Rectangle.cs" />
+    <Compile Include="Formulas\Shapes\Square.cs" />
+    <Compile Include="Formulas\Statistics\BasicsFormulas.cs" />
+    <Compile Include="Models\Numbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

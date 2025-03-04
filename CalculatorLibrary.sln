@@ -9,6 +9,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWithProperties", "CalculatorWithProperties\CalculatorWithProperties.csproj", "{B9045A81-4A70-4943-BA55-163E42479C00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumingModelCalculator", "ConsumingModelCalculator\ConsumingModelCalculator.csproj", "{841AB166-6C14-4DF4-B592-A0905F94BD66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesCalculator", "ShapesCalculator\ShapesCalculator.csproj", "{BBA8D2EA-D331-4466-829D-7CFDDA4AE6DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "statistics", "statistics\statistics.csproj", "{EB295B41-6147-4778-9F1C-B517E51B0CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearEquation", "LinearEquation\LinearEquation.csproj", "{E3A97253-6C8B-4C1C-8EFE-51519862F336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestSample_Ocarol", "UnitTestSample_Ocarol\UnitTestSample_Ocarol.csproj", "{B1433C2D-1D94-44D4-9076-1BA05D37CCC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +37,26 @@ Global
 		{B9045A81-4A70-4943-BA55-163E42479C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9045A81-4A70-4943-BA55-163E42479C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9045A81-4A70-4943-BA55-163E42479C00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{841AB166-6C14-4DF4-B592-A0905F94BD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841AB166-6C14-4DF4-B592-A0905F94BD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841AB166-6C14-4DF4-B592-A0905F94BD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841AB166-6C14-4DF4-B592-A0905F94BD66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA8D2EA-D331-4466-829D-7CFDDA4AE6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA8D2EA-D331-4466-829D-7CFDDA4AE6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA8D2EA-D331-4466-829D-7CFDDA4AE6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA8D2EA-D331-4466-829D-7CFDDA4AE6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB295B41-6147-4778-9F1C-B517E51B0CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB295B41-6147-4778-9F1C-B517E51B0CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB295B41-6147-4778-9F1C-B517E51B0CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB295B41-6147-4778-9F1C-B517E51B0CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A97253-6C8B-4C1C-8EFE-51519862F336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A97253-6C8B-4C1C-8EFE-51519862F336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A97253-6C8B-4C1C-8EFE-51519862F336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A97253-6C8B-4C1C-8EFE-51519862F336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1433C2D-1D94-44D4-9076-1BA05D37CCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1433C2D-1D94-44D4-9076-1BA05D37CCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1433C2D-1D94-44D4-9076-1BA05D37CCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1433C2D-1D94-44D4-9076-1BA05D37CCC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
