@@ -12,6 +12,12 @@ namespace BasicUnitTest
         {
            var addition = Basic.Addition(1, 1);
             Assert.AreEqual(addition, 2);
+            var subtraction = Basic.Subtraction(1, 1);
+            Assert.AreEqual(subtraction, 0);
+            var multiplication = Basic.Multiplication(1, 1);
+            Assert.AreEqual(multiplication, 1);
+            var division = Basic.Division(1, 1);
+            Assert.AreEqual(division, 1);
         }
     }
 }
