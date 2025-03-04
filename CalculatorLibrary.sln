@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorUsingProperties", "CalculatorUsingProperties\CalculatorUsingProperties.csproj", "{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestSample_Syllanto", "UnitTestSample_Syllanto\UnitTestSample_Syllanto.csproj", "{4C1C01EB-F16A-4BF7-BC47-E56DA9D70A56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,14 +29,12 @@ Global
 		{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FEDE318-777A-44F2-81A8-A5F0EF8B526B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B44B6B27-2C2B-468A-8DCB-9B9582E26A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B44B6B27-2C2B-468A-8DCB-9B9582E26A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B44B6B27-2C2B-468A-8DCB-9B9582E26A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B44B6B27-2C2B-468A-8DCB-9B9582E26A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C1C01EB-F16A-4BF7-BC47-E56DA9D70A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1C01EB-F16A-4BF7-BC47-E56DA9D70A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C1C01EB-F16A-4BF7-BC47-E56DA9D70A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C1C01EB-F16A-4BF7-BC47-E56DA9D70A56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
 	EndGlobalSection
 EndGlobal
