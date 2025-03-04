@@ -9,28 +9,28 @@ public class UnitTest1
     public void TestAddition()
     {
         int res = Basic.Addition(1, 1);
-        Assert.Equal(res, 2);
+        Assert.Equal(2, res);
     }
 
     [Fact]
     public void TestSubtraction()
     {
         int res = Basic.Subtraction(1, 1);
-        Assert.Equal(res, 0);
+        Assert.Equal(0, res);
     }
 
     [Fact]
     public void TestMultiplication()
     {
         int res = Basic.Multiplication(1, 1);
-        Assert.Equal(res, 1);
+        Assert.Equal(1, res);
     }
 
     [Fact]
     public void TestDivision()
     {
         decimal res = Basic.Division(1, 1);
-        Assert.Equal(res, (decimal)1.0);
+        Assert.Equal((decimal)1.0, res);
     }
 
     [Fact]
