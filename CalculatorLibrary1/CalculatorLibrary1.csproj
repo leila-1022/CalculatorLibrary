@@ -51,6 +51,7 @@
     <Compile Include="Formulas\Shapes\Circle.cs" />
     <Compile Include="Formulas\Shapes\Rectangle.cs" />
     <Compile Include="Formulas\Shapes\Square.cs" />
+    <Compile Include="Models\Numbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
