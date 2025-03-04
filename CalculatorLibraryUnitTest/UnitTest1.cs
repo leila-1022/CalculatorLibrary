@@ -1,5 +1,7 @@
-namespace CalculatorLibraryUnitTest;
 using CalculatorLibrary.Formulas;
+using Xunit;
+
+namespace CalculatorLibraryUnitTest;
 
 public class UnitTest1
 {
@@ -29,5 +31,11 @@ public class UnitTest1
     {
         decimal res = Basic.Division(1, 1);
         Assert.Equal(res, (decimal)1.0);
+    }
+
+    [Fact]
+    public void TestDivisionZero()
+    {
+        Assert.Throws<Exception>(() => Basic.Division(1, 0));
     }
 }
