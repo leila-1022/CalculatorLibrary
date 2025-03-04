@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcuLibs", "CalcuLibs\Calc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KimDokja", "KimDokja\KimDokja.csproj", "{4E153F4D-4774-4824-A528-8E1EC604278E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumingModelCalculator", "ConsumingModelCalculator\ConsumingModelCalculator.csproj", "{C3A505C6-0CE8-45E7-BA8B-934DF597E242}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumingModelCalculator", "ConsumingModelCalculator\ConsumingModelCalculator.csproj", "{C3A505C6-0CE8-45E7-BA8B-934DF597E242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicUnitTest", "UnitTestProject1\BasicUnitTest.csproj", "{5E21E827-275C-4625-B78E-F56444898B94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C3A505C6-0CE8-45E7-BA8B-934DF597E242}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3A505C6-0CE8-45E7-BA8B-934DF597E242}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3A505C6-0CE8-45E7-BA8B-934DF597E242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E21E827-275C-4625-B78E-F56444898B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E21E827-275C-4625-B78E-F56444898B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E21E827-275C-4625-B78E-F56444898B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E21E827-275C-4625-B78E-F56444898B94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
