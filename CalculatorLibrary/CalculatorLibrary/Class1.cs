@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,12 +8,5 @@ namespace CalculatorLibrary
 {
     public class Class1
     {
-=======
-﻿namespace CalculatorLibrary
-{
-    public class Class1
-    {
-
->>>>>>> 99e8a07 (Add project files.)
     }
 }

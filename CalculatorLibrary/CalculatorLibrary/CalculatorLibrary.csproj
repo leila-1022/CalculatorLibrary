@@ -41,11 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Formulas\Basic.cs" />
-    <Compile Include="Formulas\BasicWithProperties.cs" />
-    <Compile Include="Formulas\Shapes\Circle.cs" />
-    <Compile Include="Formulas\Shapes\Rectangle.cs" />
-    <Compile Include="Formulas\Shapes\Square.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
