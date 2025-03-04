@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorUsingProperties",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EXAMINATION-2 CODE", "EXAMINATION-2 CODE\EXAMINATION-2 CODE.csproj", "{C3E4CD2B-DA11-428C-94C1-69D466B7D610}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearEquation", "LinearEquation\LinearEquation.csproj", "{B1D48527-07C2-43BD-9857-34EB33F49087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearEquation", "LinearEquation\LinearEquation.csproj", "{B1D48527-07C2-43BD-9857-34EB33F49087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicUnitTest", "BasicUnitTest\BasicUnitTest.csproj", "{B290C92D-4B0D-45BF-AF3F-EF699A3CE6A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B1D48527-07C2-43BD-9857-34EB33F49087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1D48527-07C2-43BD-9857-34EB33F49087}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1D48527-07C2-43BD-9857-34EB33F49087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B290C92D-4B0D-45BF-AF3F-EF699A3CE6A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B290C92D-4B0D-45BF-AF3F-EF699A3CE6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B290C92D-4B0D-45BF-AF3F-EF699A3CE6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B290C92D-4B0D-45BF-AF3F-EF699A3CE6A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
