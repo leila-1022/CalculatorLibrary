@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsumingModelCalculator/1.0.0": {
+        "dependencies": {
+          "CalculatorLibraryV2": "1.0.0"
+        },
+        "runtime": {
+          "ConsumingModelCalculator.dll": {}
+        }
+      },
+      "CalculatorLibraryV2/1.0.0": {
+        "runtime": {
+          "CalculatorLibraryV2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsumingModelCalculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalculatorLibraryV2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
