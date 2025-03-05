@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CalculatorLibrary.Formulas
+﻿namespace CalculatorLibrary.Formulas
 {
     public static class Basic
     {
@@ -14,11 +8,11 @@ namespace CalculatorLibrary.Formulas
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public static int Addition(int a, int b) 
+        public static int Addition(int a, int b)
         {
             return a + b;
         }
-        
+
         public static int Subtraction(int a, int b)
         {
             return a - b;
@@ -40,8 +34,8 @@ namespace CalculatorLibrary.Formulas
 
     public static class BasicWithProperties
     {
-        public static decimal firstNumber {get; set;}
-        public static decimal secondNumber {get; set;}
+        public static decimal firstNumber { get; set; }
+        public static decimal secondNumber { get; set; }
         public static string getAddition()
         {
             return $"The sum of {firstNumber} and {secondNumber} is {firstNumber + secondNumber}";

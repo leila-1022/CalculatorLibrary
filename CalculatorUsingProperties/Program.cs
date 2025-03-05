@@ -1,21 +1,20 @@
-﻿using CalculatorLibrary;
-using CalculatorLibrary.Formulas;
+﻿using CalculatorLibrary.Formulas;
 
 class Program
 {
     static void Main()
     {
-      
+
         Console.Write("Enter first number: ");
         if (decimal.TryParse(Console.ReadLine(), out var firstNumber))
         {
             Console.Write("Enter second number: ");
             if (decimal.TryParse(Console.ReadLine(), out var secondNumber))
             {
-                BasicWithProperties.FirstNumber = firstNumber;
-                BasicWithProperties.SecondNumber = secondNumber;
+                BasicWithProperties.firstNumber = firstNumber;
+                BasicWithProperties.secondNumber = secondNumber;
 
-                Console.WriteLine($"Addition result: {BasicWithProperties.GetAddition()}");
+                Console.WriteLine($"Addition result: {BasicWithProperties.getAddition()}");
             }
             else
             {
